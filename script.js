@@ -67,7 +67,7 @@ function initializeDashboard() {
   const userRoleEl = document.getElementById("userRole");
   
   if (userNameEl) userNameEl.textContent = nama || "User";
-  if (userRoleEl) userRoleEl.textContent = role === "pt" ? "Administrator" : "Seller";
+  if (userRoleEl) userRoleEl.textContent = role === "Creator" ? "Administrator" : "Seller";
 
   // Set body role for CSS
   document.body.setAttribute('data-role', role);
